@@ -1,0 +1,9 @@
+{
+  "$schema": "https://arisen.dev/schemas/package-v2.json",
+  "id": "com.arisen.dag",
+  "name": "Arisen DAG",
+  "version": "1.0.0",
+  "description": "Directed Acyclic Graph execution engine for pipelines and nodes.",
+  "author": "Arisen Team",
+  "dependencies": {}
+}
