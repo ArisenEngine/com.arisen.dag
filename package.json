@@ -4,8 +4,8 @@
   "Version": "1.0.0",
   "Author": "Arisen Team",
   "Description": "Directed Acyclic Graph execution engine for pipelines and nodes.",
-  "Entry": {
-    "Assembly": "Com.Arisen.Dag.dll"
-  },
-  "Dependencies": {}
+  "Dependencies": {},
+  "entry": {
+    "assembly": "Com.Arisen.Dag.dll"
+  }
 }
