@@ -1,11 +1,11 @@
 {
-  "Id": "com.arisen.dag",
-  "Name": "Arisen DAG",
-  "Version": "1.0.0",
-  "Author": "Arisen Team",
-  "Description": "Directed Acyclic Graph execution engine for pipelines and nodes.",
-  "Dependencies": {},
+  "id": "com.arisen.dag",
+  "name": "Arisen DAG",
+  "version": "1.0.0",
+  "author": "Arisen Team",
+  "description": "Directed Acyclic Graph execution engine for pipelines and nodes.",
   "entry": {
     "assembly": "Com.Arisen.Dag.dll"
-  }
+  },
+  "dependencies": {}
 }
