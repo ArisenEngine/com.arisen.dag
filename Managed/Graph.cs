@@ -9,6 +9,13 @@ public class Graph<TNode> where TNode : GraphNode
     public IReadOnlyCollection<TNode> Nodes => m_Nodes.Values;
     public IReadOnlyList<GraphEdge> Edges => m_Edges;
 
+    public void Clear()
+    {
+        m_Nodes.Clear();
+        m_Edges.Clear();
+        m_NextNodeId = 1;
+    }
+
     public TNode AddNode(TNode node)
     {
         node.Id = m_NextNodeId++;
